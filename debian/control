@@ -1,0 +1,14 @@
+Source: holdmybeverage
+Section: misc
+Priority: optional
+Maintainer: Vertel AB <info@vertel.se>
+Uploaders: Simon Rundstedt <simon.rundstedt@vertel.se>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 0.5.0
+
+Package: holdmybeverage
+Architecture: all
+Depends: bash, coreutils, grep
+Description: Hold my beer
+ Make a checksum'ed copy of a file before editing it and optionally reverting
+ to the original state from the copy.
